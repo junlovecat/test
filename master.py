@@ -2516,6 +2516,7 @@ async def webex(ctx): await ctx.send('https://meetingsapac41.webex.com/join/pr16
 
 
 ####################################################################################################
-client.run("Nzk5NDUyMTE3NDgzNTIwMDQw.YADxzQ.0UbM02qAQxDQ1HrlHZKcSknef34")
+access_token=os.environ["BOT_TOKEN"]
+client.run(access_token)
 # https://discord.com/oauth2/authorize?client_id=799452117483520040&permissions=8&scope=bot
 #"Nzk5NDUyMTE3NDgzNTIwMDQw.YADxzQ.0UbM02qAQxDQ1HrlHZKcSknef34"
